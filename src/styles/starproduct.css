@@ -1,0 +1,24 @@
+.starproduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.firstChild>a>img:hover{
+    transform: translateY(-1vmax);
+    transition: all 0.5s;
+    box-shadow: 0 6px 10px gray;
+}
+.secondChild>a>img:hover{
+    transform: translateY(-1vmax);
+    transition: all 0.5s;
+    box-shadow: 0 6px 10px gray;
+}
+
+.starproduct>div:last-child{
+    display: flex;
+    flex-wrap: wrap;
+    width: 46%;
+
+
+}

@@ -1,0 +1,30 @@
+.hotItemCard{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    margin-left: 1vmax;
+    margin-top: 1vmax;
+
+}
+
+.hotProducts:hover{
+    box-shadow: 0px 6px 15px grey;
+    transform: translateY(-0.4vmax);
+}
+.hotProducts{
+
+    display: flex;
+    flex-direction: column;
+    padding: 1.5vmax;
+    transition: all 0.5s;
+    width: 20vw;
+    cursor: pointer;
+
+    >span{
+        color: tomato;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    }
+    >p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}

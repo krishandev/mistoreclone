@@ -1,0 +1,21 @@
+.productReviewCard:hover{
+    transform: translateY(-2vmax);
+    transition: all 0.5s;
+    box-shadow: 0 6px 15px gray;
+}
+
+.productReviewCard{
+    margin: 0.5vmax;
+    padding-bottom: 2vmax;
+
+    >b{
+        color: tomato;
+    }
+
+    >h5{
+        margin: 0.5vmax 2vmax 0.5vmax 2vmax ;
+    }
+    >span{
+        margin: 0.5vmax 2vmax 0.5vmax 2vmax;
+    }
+}

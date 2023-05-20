@@ -1,0 +1,15 @@
+.hotAccessoriesMenu{
+
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.HotAccessoriesLink{
+    padding: 0.5vmax;
+}
+.HotAccessoriesLink:hover{
+    color: tomato;
+    text-decoration: none;
+    border-bottom: 2px solid tomato;
+}

@@ -1,0 +1,30 @@
+.hotAccessories{
+    border: 2px solid red;
+    padding: 1vmax;
+    display: flex;
+    
+}
+
+.musicCover{
+    width: 25%;
+
+    display: flex;
+justify-content: center;
+
+}
+.musicCover>img{
+    width: 98%;
+}
+
+.musicCover:hover{
+    transform: translateY(-0.4vmax);
+    transition: all 0.5s;
+    box-shadow: 0 6px 15px gray;
+}
+
+.music{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
